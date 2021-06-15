@@ -1,0 +1,291 @@
+@media (max-width: 1024px) {
+  .small-profile {
+    max-width: 90%;
+  }
+
+  .profilecard-bottom-left img {
+    left: 25px;
+  }
+
+  .category-slots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-area {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 110px;
+  }
+  header nav {
+    flex-direction: column;
+  }
+
+  .featured {
+    height: 700px;
+  }
+
+  .featured .container {
+    height: 100%;
+  }
+
+  .featured .row {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main-area {
+    margin: 0;
+  }
+  .profilecard-bg {
+    height: 200px;
+  }
+
+  .profilecard-bottom-left img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .profilecard-bottom-left table {
+    margin: 110px 0 10px 20px;
+    width: 30%;
+  }
+
+  .profilecard-bottom-left .btn {
+    width: 180px;
+    margin: 0 20px 20px;
+  }
+
+  .sign-up h1 {
+    top: 35px;
+    font-size: 30px;
+  }
+
+  .category-slots {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .buttons-list li {
+    flex-direction: column;
+  }
+
+  .buttons-list li .prof-article-name {
+    margin-bottom: 10px;
+  }
+
+  .buttons-list li .prof-article-name a {
+    margin: 0;
+  }
+
+  .big-article .img-container {
+    height: 300px;
+  }
+
+  .banner-wrapper {
+    width: 90%;
+  }
+
+  .article-form {
+    width: 90%;
+  }
+
+  .sign-up .errorlist {
+    max-width: 653px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 540px) {
+  header {
+    height: auto;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    padding: 10px;
+    border-bottom: 1px dotted #777;
+  }
+
+  header nav ul li:nth-child(2) {
+    display: none;
+  }
+
+  header nav ul li:last-child {
+    border: none;
+  }
+  header nav ul li a {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .dropdown-button {
+    padding: 0;
+  }
+
+  .profilecard-bottom {
+    flex-direction: column;
+  }
+
+  .profilecard-bottom-right {
+    display: none;
+  }
+
+  #mobile-username {
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+  }
+
+  .profile-card {
+    height: auto;
+  }
+
+  .profilecard-bottom-left table {
+    margin: 10px 0 10px 20px;
+    width: 100%;
+  }
+
+  .profilecard-bottom-left .btn {
+    width: 80%;
+    margin: 20px auto 10px;
+  }
+
+  .profilecard-bottom-left img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .buttons-list li .li-second {
+    flex-direction: column;
+  }
+
+  .buttons a {
+    margin: 0 auto 10px;
+  }
+
+  .full-article-img {
+    height: 350px;
+  }
+
+  .full-info .full-label {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .full-article .full-text {
+    font-size: 14px;
+  }
+
+  .big-article .big-article-content h2 {
+    font-size: 30px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 420px) {
+  .featured-box .middle .mid-container {
+    left: 20px;
+  }
+
+  .featured-box .middle .mid-container h2 {
+    max-width: 300px;
+  }
+
+  .big-article .img-container {
+    height: 300px;
+  }
+
+  .big-article .big-article-content h2 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  .featured-box .middle .mid-container h2 {
+    font-size: 20px;
+  }
+
+  .signup-form .gender-text {
+    margin-right: 20px;
+  }
+
+  .preview-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .sign-up {
+    padding-top: 90px;
+  }
+
+  .create-post-title {
+    font-size: 20px !important;
+  }
+
+  .banner-wrapper {
+    height: 300px;
+  }
+
+  .article-form {
+    width: 100%;
+  }
+
+  .costumUpload {
+    width: 100%;
+  }
+
+  #article-content {
+    height: 300px;
+    font-size: 16px;
+  }
+
+  .category-page {
+    min-width: 100%;
+  }
+
+  .category-slots .category-pic {
+    height: 270px;
+  }
+
+  .main-area {
+    width: 100%;
+    flex: unset;
+  }
+
+  .full-article-img {
+    height: 300px;
+  }
+
+  .full-info .full-label {
+    font-size: 30px;
+  }
+
+  .full-article-content {
+    padding: 15px;
+  }
+
+  .popup-con {
+    margin: 120px auto;
+    width: 90%;
+  }
+
+  .sign-up {
+    min-height: 0;
+  }
+
+  .sign-up h1 {
+    font-size: 20px;
+  }
+}
